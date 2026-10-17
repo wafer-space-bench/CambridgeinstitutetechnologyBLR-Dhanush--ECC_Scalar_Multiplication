@@ -1,0 +1,27 @@
+source:
+  url: https://github.com/CambridgeinstitutetechnologyBLR-Dhanush/ECC_Scalar_Multiplication
+  original_url: null
+  kind: fork
+  why: GitHub fork of the upstream repository
+  licence: null
+  upstream_default_branch: main
+tapeouts:
+- org: tinytapeout
+  run: ttgf26b
+  slot: tt_um_ecc_scalar_mult
+  project: ECC Scalar Multiplication
+  size: 1x1
+  kind: digital (Verilog)
+  commit: d7f77b59d2accaefd47e7f65608696f0de6f0abd
+  commit_source: commit from the shuttle repo's projects/<name>/commit_id.json
+  tag: tinytapeout/ttgf26b/tt_um_ecc_scalar_mult
+  branch: tapeout/tinytapeout/ttgf26b/tt_um_ecc_scalar_mult
+  page: https://app.tinytapeout.com/shuttles/ttgf26b
+generated: '2026-10-17T23:22:31Z'
+tooling: https://github.com/wafer-space/wafer.space-bench
+index: https://wafer-space-bench.github.io
+branches:
+- about
+- tapeout/tinytapeout/ttgf26b/tt_um_ecc_scalar_mult
+- upstream/copilot/fix-viewer-job-failure
+- upstream/main
